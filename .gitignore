@@ -1,4 +1,5 @@
 data/processed/faiss_index/
+data/processed/query_results.txt
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
