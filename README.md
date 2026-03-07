@@ -35,3 +35,9 @@ The data pipeline scripts are located in `src/pipeline` and include:
 
 ## Note
 The FAISS vector index is not included in the repository because it can be rebuilt locally using the pipeline script.
+
+## Installation
+
+To install the required dependencies, run:
+
+pip install -r requirements.txt
