@@ -1,0 +1,66 @@
+####################################################################################################
+QUERY 1: What cybersecurity risks does Microsoft mention?
+####################################################################################################
+Answer:
+According to the retrieved excerpts, Microsoft mentions the following cybersecurity risks:
+
+* Cybersecurity threats (Document 2)
+* Previous cybersecurity incidents (Document 2)
+* Security vulnerabilities (Document 3)
+* Cyberattacks (Document 3)
+
+These risks could lead to reduced revenue, increased costs, liability claims, or harm to Microsoft's reputation or competitive position.
+
+Sources:
+1. Company: MSFT | Year: 2025 | Chunk ID: MSFT_2025_chunk_122
+2. Company: MSFT | Year: 2024 | Chunk ID: MSFT_2024_chunk_150
+3. Company: MSFT | Year: 2025 | Chunk ID: MSFT_2025_chunk_61
+
+####################################################################################################
+QUERY 2: What supply chain risks does Apple disclose?
+####################################################################################################
+Answer:
+Based on the retrieved excerpts, Apple does not explicitly disclose supply chain risks in these documents. The excerpts primarily discuss macroeconomic factors affecting retail operations, legal and regulatory compliance risks, and environmental, social, and governance considerations. There is no mention of specific supply chain risks or concerns.
+
+Sources:
+1. Company: AAPL | Year: 2024 | Chunk ID: AAPL_2024_chunk_59
+2. Company: AAPL | Year: 2024 | Chunk ID: AAPL_2024_chunk_65
+3. Company: AAPL | Year: 2025 | Chunk ID: AAPL_2025_chunk_72
+
+####################################################################################################
+QUERY 3: What regulatory risks does Alphabet report?
+####################################################################################################
+Answer:
+Based on the retrieved excerpts, Alphabet reports regulatory risks related to:
+
+* Regulatory proceedings and lawsuits that could harm its business, reputation, financial condition, and operating results (Document 1)
+* Heightened regulatory scrutiny and changes in regulatory conditions, laws, and public policies that could affect its business practices and financial results (Document 2)
+* Compliance with new, existing, and changing laws and regulations worldwide that could harm its business (Document 3)
+
+These risks include potential exposure to investigations, proceedings, and other contingencies, as well as the possibility of adverse outcomes in lawsuits or regulatory actions.
+
+Sources:
+1. Company: GOOGL | Year: 2024 | Chunk ID: GOOGL_2024_chunk_91
+2. Company: GOOGL | Year: 2024 | Chunk ID: GOOGL_2024_chunk_9
+3. Company: GOOGL | Year: 2024 | Chunk ID: GOOGL_2024_chunk_81
+
+####################################################################################################
+QUERY 4: Compare competition risks between Apple and Google.
+####################################################################################################
+Answer:
+Based on the retrieved excerpts, both Apple (AAPL) and Google (GOOGL) face significant competition risks in their respective markets. However, a direct comparison between the two companies' competition risks is not explicitly stated in the provided texts.
+
+However, it can be inferred that both companies face intense competition from multiple fronts, including:
+
+* Substantial competition from companies with significant technical, marketing, distribution, and other resources (AAPL)
+* Highly competitive market with frequent introduction of new products and services, rapid adoption of technological advancements by competitors, increased market saturation in developed countries, short product life cycles, evolving industry standards, continual improvement in performance characteristics, and price and feature sensitivity on the part of consumers and businesses (GOOGL)
+
+In terms of specific competition risks, AAPL mentions that its minority market share can make developers less inclined to develop or upgrade software for their products, while GOOGL notes that there is no assurance they will be able to provide devices that compete effectively.
+
+Overall, both companies face significant competition risks, but the nature and intensity of these risks are not directly comparable based on the provided excerpts.
+
+Sources:
+1. Company: AAPL | Year: 2025 | Chunk ID: AAPL_2025_chunk_33
+2. Company: GOOGL | Year: 2024 | Chunk ID: GOOGL_2024_chunk_45
+3. Company: AAPL | Year: 2025 | Chunk ID: AAPL_2025_chunk_47
+
