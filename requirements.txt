@@ -5,6 +5,9 @@ langchain-community
 langchain-core
 langchain-text-splitters
 langchain-huggingface
+langchain-ollama
 sentence-transformers
 faiss-cpu
 huggingface-hub
+pandas
+numpy

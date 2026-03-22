@@ -1,5 +1,13 @@
+# FAISS index (rebuildable)
 data/processed/faiss_index/
+
+# Generated outputs (do not track)
 data/processed/query_results.txt
+data/processed/ml3_batch_answers.txt
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
