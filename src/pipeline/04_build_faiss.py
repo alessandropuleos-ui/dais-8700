@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # Step 1: Load your chunked JSON file
 file_path = Path("data/processed/chunked_filings.json")

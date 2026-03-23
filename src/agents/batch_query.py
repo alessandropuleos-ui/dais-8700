@@ -1,11 +1,9 @@
 from pathlib import Path
-from src.agents.retrieval_agent import RetrievalAgent
-from src.agents.answer_agent import AnswerAgent
+from src.agents.react_agent import create_agent
 
 
 def main():
-    retrieval_agent = RetrievalAgent()
-    answer_agent = AnswerAgent(model_name="llama3")
+    agent = create_agent()
 
     queries = [
         "What cybersecurity risks does Microsoft mention?",
@@ -20,24 +18,14 @@ def main():
         for i, query in enumerate(queries, start=1):
             print(f"Running query {i}: {query}")
 
-            docs = retrieval_agent.retrieve(query, k=3)
-            answer = answer_agent.answer(query, docs)
+            response = agent.run(query)
 
             header = f"{'#' * 100}\nQUERY {i}: {query}\n{'#' * 100}\n"
             f.write(header)
             f.write("Answer:\n")
-            f.write(answer)
-            f.write("\n\nSources:\n")
+            f.write(response)
+            f.write("\n\n")
 
-            for j, doc in enumerate(docs, start=1):
-                source_line = (
-                    f"{j}. Company: {doc.metadata.get('company', 'N/A')} | "
-                    f"Year: {doc.metadata.get('year', 'N/A')} | "
-                    f"Chunk ID: {doc.metadata.get('chunk_id', 'N/A')}\n"
-                )
-                f.write(source_line)
-
-            f.write("\n")
             f.flush()
 
     print(f"Batch answers saved to: {output_path}")
